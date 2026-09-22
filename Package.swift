@@ -17,9 +17,6 @@ let package = Package(
             dependencies: [
                 .target(name: "SmartdigimktSDK")
             ],
-            resources: [
-                .copy("Resources/SmartdigimktSDK.bundle")
-            ],
             linkerSettings: [
                 .linkedFramework("CoreGraphics"),
                 .linkedFramework("Foundation"),
